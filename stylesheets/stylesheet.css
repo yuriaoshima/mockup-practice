@@ -2,15 +2,21 @@ html { font-size: 16px}
 header {
   background: black;
   margin: 0;
-  padding: 2rem;
+  padding: 0.5rem 1rem 2rem 0;
 }
 
 a {
   color: red;
 }
 
+header a {
+  float: right;
+}
+
 nav a {
   color: purple;
+  padding-right: 3rem;
+  padding-left: 3rem;
 }
 
 h1 {
@@ -29,13 +35,66 @@ h5 {
 
 nav {
   background: rgba(179, 179, 179, 0.9);
-  padding: 0.5rem 2rem 0.5rem 2rem; 
+  padding: 0.5rem 0 0.5rem 0; 
+  text-align: center;
 }
 
 section {
-  width: 21rem
+  width: 21rem;
+  padding: 0.5rem 0 1rem 1rem;
+}
+
+.testimonials {
+  font-style: italic;
 }
 
 aside {
-  width: 10rem
+  width: 20rem;
+  float: right;
+  border: 0.1rem solid darkgrey;
+  margin: 1rem 1rem 2rem 1rem;
+}
+
+aside p {
+  margin-left: 0.5rem;
+  width: 10rem;
+  float: left;
+}
+
+aside a {
+  float: right;
+}
+
+h4 {
+  text-align: center;
+  clear: both;
+}
+
+figcaption {
+  text-align: center;
+}
+
+figure {
+  width: 18rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 18rem;  
+}
+
+address {
+  background: black;
+  color: white;
+  padding: 1rem 0.5rem 2rem 0.5rem;
+  clear: both;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  clear: both;
 }
