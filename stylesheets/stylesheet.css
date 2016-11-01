@@ -6,10 +6,11 @@ header {
 }
 
 a {
-  color: red;
+  color: rgb(205, 0, 0);
 }
 
 header a {
+  font-family: Geneva;
   float: right;
 }
 
@@ -21,16 +22,25 @@ nav a {
 
 h1 {
   color: white;
+  font-family: Geneva;
+  letter-spacing: 0.1rem;
   background: black;
   margin: 0;
-  padding: 0 0 0.5rem 1rem
+  padding: 2rem 0 0.5rem 1rem
+}
+
+h3 {
+  font-family: Geneva;
+  text-align: center;
+  clear: both;
 }
 
 h5 {
   color: gainsboro;
+  font-family: Geneva;
   background: black;
   margin: 0;
-  padding: 0 0 1rem 1rem;
+  padding: 0 0 1.5rem 1rem;
 }
 
 nav {
@@ -44,8 +54,9 @@ nav {
 }
 
 section {
+  font-family: Geneva;
   width: 21rem;
-  padding: 0.5rem 0 1rem 1rem;
+  padding: 0.5rem 0 1rem 2rem;
   float: left;
   clear: left;
 }
@@ -54,7 +65,7 @@ aside {
   width: 20rem;
   float: right;
   border: 0.1rem solid darkgrey;
-  margin: 0rem 1rem 2rem 6rem;
+  margin: 1.5rem 2rem 2rem 6rem;
   padding-bottom: 1rem;
   padding-right: 1rem;
 }
@@ -67,11 +78,6 @@ aside p {
 
 aside a {
   float: right;
-}
-
-h4 {
-  text-align: center;
-  clear: both;
 }
 
 figcaption {
@@ -91,6 +97,8 @@ img {
 
 address {
   background: black;
+  font-family: Geneva;
+  font-style: normal;
   color: white;
   padding: 1rem 0.5rem 2rem 0.5rem;
   clear: both;
