@@ -39,20 +39,24 @@ nav {
   text-align: center;
 }
 
+.testimonials {
+  font-style: italic;
+}
+
 section {
   width: 21rem;
   padding: 0.5rem 0 1rem 1rem;
-}
-
-.testimonials {
-  font-style: italic;
+  float: left;
+  clear: left;
 }
 
 aside {
   width: 20rem;
   float: right;
   border: 0.1rem solid darkgrey;
-  margin: 1rem 1rem 2rem 1rem;
+  margin: 0rem 1rem 2rem 6rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
 }
 
 aside p {
