@@ -29,6 +29,10 @@ h1 {
   padding: 2rem 0 0.5rem 1rem
 }
 
+h2 {
+  margin-bottom: 0;
+}
+
 h3 {
   font-family: Geneva;
   text-align: center;
@@ -55,10 +59,14 @@ nav {
 
 section {
   font-family: Geneva;
-  width: 21rem;
+  width: 23.5rem;
   padding: 0.5rem 0 1rem 2rem;
   float: left;
   clear: left;
+}
+
+section p {
+  line-height: 1.3rem;
 }
 
 aside {
@@ -72,12 +80,14 @@ aside {
 
 aside p {
   margin-left: 0.5rem;
+  margin-top: 0;
   width: 10rem;
   float: left;
 }
 
 aside a {
   float: right;
+  margin-top: 1rem;
 }
 
 figcaption {
